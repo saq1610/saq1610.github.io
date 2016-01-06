@@ -1,18 +1,89 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>saq1610</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<meta name="description" content="Your meta-description here">
+	<meta name="author" content="Luca Cassani">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="theme-color" content="#2196F3">
+</head>
+<body>
+<div id="blue_bg"></div>
+<header>
+	<div id="quick_card" class="card">
+		<div><img id="photo" src="https://avatars3.githubusercontent.com/u/10332349?v=3&u=e2e50619fc8575d3adcfda64bbc5e37026cf504e&s=140" /></div> <!-- replace photo in /img/ 705x705 -->
+		<h1 id="name">Saqeef Iqbal</h1>
+		<h2 id="description">14 year old web developer, linux enthusiast and Arelos founder</h2>
+	</div>
+</header>
+<main>
+<div id="about_card" class="card">
+	<section class="tab">
+		<div class="title"><i class="fa fa-tachometer"></i>Experience</div>
+		<div class="content">
+			<section class="element"> 
+						<div class="name">Web development</div>
+						<div class="info">I know my way around HTML, CSS and JS</div>
+			</section>
+			<hr align="left"/>
+			<section class="element"> 
+					<div class="name">Arelos</div>
+					<div class="info">I'm the founder and lead developer of a new and upcoming linux distro, Arelos</div>
+			</section>
+			<!-- You can add more experiences! -->
+		</div>
+	</section>
+	<section class="tab">
+		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
+		<div class="content">
+			<section class="element">
+				<div class="name">The City School</div>
+				
+			</section>
+			<hr align="left"/>
+			<section class="element">
+				<div class="name">Bahria College</div>
+				<div class="info">Currently in IGCSE O'Levels</div>
+			</section>
+			<!-- You can add more education details! -->
+		</div>
+	</section>
+	<!--section class="tab">
+		<div class="title"><i class="fa fa-suitcase"></i>My Work</div>
+		<div class="content">
+			<section class="element"> 
+					<div class="name">Your first work</div>
+					<div class="info">Description and <a href="http://yourlinkhere" target="_blank">link</a></div>
+			</section>
+			<hr align="left"/>
+			<section class="element">
+				<div class="name">Your second work</div>
+				<div class="info">Description and <a href="http://yourlinkhere" target="_blank">link</a></div>
+			</section>
+			
+		</div>
+	</section -->
 </div>
+<div id="contact_card" class="card">
+	<section class="tab">
+		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
+		<div class="content">
+			<div class="contacts"><a href="mailto:nasirsaqeef2001@gmail.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
+			<div class="contacts"><a href="https://plus.google.com/u/0/+SaqeefIqbalChaudhary" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
+			<div class="contacts"><a href="http://saq1610.github.io" target="_blank"><i class="fa fa-globe"></i>&nbsp; Website</a></div>
+			<!-- You can add more contacts! -->
+		</div>
+	</section>
+</div>
+<a href="mailto:nasirsaqeef2001@gmail.com">
+	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
+</a>
+</main>
+<footer>
+  <small>Personal Cards, <a href="http://saq1610.github.io" target="_blank">Saqeef Iqbal</a></small>
+</footer>
+</body>
+</html>
