@@ -1,89 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>saq1610</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="Your meta-description here">
-	<meta name="author" content="Luca Cassani">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#2196F3">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>saq1610</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" >
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <script src="js/materialize.js"></script>
 </head>
-<body>
-<div id="blue_bg"></div>
-<header>
-	<div id="quick_card" class="card">
-		<div><img id="photo" src="https://avatars3.githubusercontent.com/u/10332349?v=3&u=e2e50619fc8575d3adcfda64bbc5e37026cf504e&s=140" /></div> <!-- replace photo in /img/ 705x705 -->
-		<h1 id="name">Saqeef Iqbal</h1>
-		<h2 id="description">14 year old web developer, linux enthusiast and Arelos founder</h2>
-	</div>
-</header>
-<main>
-<div id="about_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-tachometer"></i>Experience</div>
-		<div class="content">
-			<section class="element"> 
-						<div class="name">Web development</div>
-						<div class="info">I know my way around HTML, CSS and JS</div>
-			</section>
-			<hr align="left"/>
-			<section class="element"> 
-					<div class="name">Arelos</div>
-					<div class="info">I'm the founder and lead developer of a new and upcoming linux distro, Arelos</div>
-			</section>
-			<!-- You can add more experiences! -->
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
-		<div class="content">
-			<section class="element">
-				<div class="name">The City School</div>
-				
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Bahria College</div>
-				<div class="info">Currently in IGCSE O'Levels</div>
-			</section>
-			<!-- You can add more education details! -->
-		</div>
-	</section>
-	<!--section class="tab">
-		<div class="title"><i class="fa fa-suitcase"></i>My Work</div>
-		<div class="content">
-			<section class="element"> 
-					<div class="name">Your first work</div>
-					<div class="info">Description and <a href="http://yourlinkhere" target="_blank">link</a></div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Your second work</div>
-				<div class="info">Description and <a href="http://yourlinkhere" target="_blank">link</a></div>
-			</section>
-			
-		</div>
-	</section -->
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
 </div>
-<div id="contact_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
-		<div class="content">
-			<div class="contacts"><a href="mailto:nasirsaqeef2001@gmail.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
-			<div class="contacts"><a href="https://plus.google.com/u/0/+SaqeefIqbalChaudhary" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
-			<div class="contacts"><a href="http://saq1610.github.io" target="_blank"><i class="fa fa-globe"></i>&nbsp; Website</a></div>
-			<!-- You can add more contacts! -->
-		</div>
-	</section>
-</div>
-<a href="mailto:nasirsaqeef2001@gmail.com">
-	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
-</a>
-</main>
-<footer>
-   <a href="http://saq1610.github.io" target="_blank">Saqeef Iqbal</a>
-</footer>
-</body>
+
+ <!--<div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+      <div class="container">
+        <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo waves-effect">Hi. I'm Saqeef</a>
+          <ul id="nav-mobile" class="right side-nav">
+            <li><a href="#intro">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+      </div>
+    </nav>
+  </div> -->
+    
+    <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo waves-effect">Hi! Im Saqeef</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="waves-effect" href="#intro">About Me</a></li>
+        <li><a class="waves-effect" href="#work">Work</a></li>
+        <li><a class="waves-effect" href="#contact">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a class="waves-effect" href="#intro">About Me</a></li>
+        <li><a class="waves-effect" href="#work">Work</a></li>
+        <li><a class="waves-effect" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    </div>
+    
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="text_h center header cd-headline letters type">
+      <span>A 14 year old</span>
+      <span class="cd-words-wrapper waiting">
+        <b class="is-visible">Web Developer.</b>
+        <b>Linux enthusiast.</b>
+        <b>Design freak who sucks at design.</b>
+        <b>Arelos Project founder.</b>
+      </span>
+    </h1>
+    </div>
+      <div class="fixed-action-btn">
+           <a href="mailto:nasirsaqeef2001@gmail.com" class="btn-floating btn-large waves-effect waves-light red tooltipped" data-position="left" date-delay="50" data-tooltip="Send me a mail."><i class="material-icons">mail</i></a>
+      </div>
+  </div>
+    
+ <div id="intro" class="section scrollspy">
+  <div class="container">
+      <!--   Icon Section   -->
+    <div class="row">
+          <div  class="col s12">
+            <h2 class="center header text_h2"> I make Android apps, Websites, friends and enemies. Probably some other stuff too.</h2>
+          </div>
+
+    <div class="row">
+        <div  class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i class="mdi-action-favorite"></i>
+            <h5 class="promo-caption">I love good design</h5>
+            <p class="light center">And I think you can't have something better than Material Design. My website is an example.</p>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i class="mdi-communication-phone"></i>
+            <h5 class="promo-caption">Android</h5>
+            <p class="light center">I have a very long relation with Android. Ive been making Custom ROMs and apps for the worlds best smartphone OS.</p>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i class="mdi-communication-stay-current-portrait"></i>
+           <h5 class="promo-caption">Linux</h5>
+            <p class="light center">Nuff said.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+<div class="section scrollspy" id="work">
+ <div class="container">
+        <h2 class="header text_b"> Last Work </h2>
+      <div class="row">
+          <div class="col s12 m4 l4 small">
+               <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/01.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Arelos <i class="mdi-navigation-more-vert right"></i></span>
+                    <p><a href="http://arelos.github.io">Arelos Website</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Arelos<i class="mdi-navigation-close right"></i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+               <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="img/04.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Gargle <i class="mdi-navigation-more-vert right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+               <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="img/03.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+
+
+  <footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">
+ <div class="row">
+
+        <div class="col l6 s12">
+          <h5 class="white-text">Me</h5>
+          <p class="grey-text text-lighten-4">
+           Im someone. And this is my site.</p>
+
+
+        </div>
+  
+        <div class="col l3 s12">
+          <h5 class="white-text">Social</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.facebook.com/saqeef.iqbal">Facebook</a></li>
+            <li><a class="white-text" href="https://twitter.com/16saqeef">Twitter</a></li>
+            <li><a class="white-text" href="https://plus.google.com/u/0/+SaqeefIqbalChaudhary">Google+</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright footer_color">
+      <div class="container">
+      Made by <a class="white-text" href="http://saq1610.github.io">Saqeef Iqbal</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
