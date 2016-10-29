@@ -3,9 +3,9 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By Andrea Galanti
- * Thanks for MaterializeCSS.com
- * Codyhouse.co
+ * Made By Saqeef Iqbal
+ * Thanks to MaterializeCSS.com
+ * and Codyhouse.co
  */
 
 .default_color{background-color: #2196F3 !important}
@@ -30,7 +30,7 @@
 }
 
 #nav_f{
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	-webkit-box-shadow:none !important;
 }
 
@@ -82,9 +82,9 @@ nav ul a {
   padding: 0px 15px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xtype 
+xtype
 
 -------------------------------- */
 .cd-headline.type .cd-words-wrapper {
@@ -223,5 +223,3 @@ xtype
   color: white;
   }
 }
-
-
