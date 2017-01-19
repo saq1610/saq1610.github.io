@@ -1,18 +1,15 @@
 /* Custom Stylesheet */
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By Saqeef Iqbal
+ * Made By saq1610
  * Thanks to MaterializeCSS.com
  * and Codyhouse.co
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #57385C !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #57385C !important}
 
-.footer_color{color: #1f1f1f}
+.footer_color{color: #57385C}
 
 .icon-block {
   padding: 0 15px;
@@ -26,7 +23,7 @@
 	min-height: 632px;
 	max-height: 864px;
 	position: relative;
-	background-color: #2196F3 ;
+	background-color: #57385C ;
 }
 
 #nav_f{
@@ -54,20 +51,20 @@
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #F4722B;}
 
-.text_b{color: #2196F3;} /* last work text*/
+.text_b{color: #F4722B;} /* last work text*/
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-	color: #2196F3 ;
+	color: #F4722B ;
 	font-size: 7rem;
 	display: block;
 }
-.card-content a {color: #2196F3;}
+.card-content a {color: #F4722B;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a:hover {color: #F4722B;}
 
 #work{background: rgb(247, 247, 247);}
 
