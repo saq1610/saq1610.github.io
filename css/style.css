@@ -5,11 +5,9 @@
  * and Codyhouse.co
  */
 
-.default_color{background-color: #57385C !important}
+.default_color{background-image: url(/bg-2.jpg) !important}
 
-.default_color_text{color: #57385C !important}
-
-.footer_color{color: #57385C}
+.default_color_text{background-color:floralwhite !important}
 
 .icon-block {
   padding: 0 15px;
@@ -23,7 +21,7 @@
 	min-height: 632px;
 	max-height: 864px;
 	position: relative;
-	background-color: #57385C ;
+	background-image: url(/bg-2.jpg);
 }
 
 #nav_f{
