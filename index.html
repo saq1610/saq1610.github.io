@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saqeef Chaudhary</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="index.html" id="nav-logo">Saqeef Chaudhary</a>
+
+    <div id="nav-right">
+      <div id="nav-work-wrap">
+        <span class="nav-link" id="nav-work-trigger">Work</span>
+        <ul id="nav-dropdown">
+          <li><a href="#" class="nav-dropdown-link">The City</a></li>
+        </ul>
+      </div>
+      <a href="#" class="nav-link">Info</a>
+    </div>
+
+    <button id="burger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <button id="mobile-close" aria-label="Close menu">&#x2715;</button>
+    <a href="#">The City</a>
+    <a href="#">Info</a>
+  </div>
+
+  <!-- SLIDESHOW -->
+  <div id="slideshow">
+    <ul id="slides"></ul>
+    <button id="zone-prev" aria-label="Previous"></button>
+    <button id="zone-next" aria-label="Next"></button>
+  </div>
+
+  <!-- Caret buttons outside slideshow -->
+  <button id="caret-prev" aria-label="Previous">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+  </button>
+  <button id="caret-next" aria-label="Next">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </button>
+
+  <script src="/main.js"></script>
+</body>
+</html>
