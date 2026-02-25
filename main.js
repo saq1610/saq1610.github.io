@@ -1,13 +1,8 @@
-/* ==========================================================
-   Slideshow + Mobile Nav - No dependencies
-   ========================================================== */
 (function () {
   'use strict';
 
   /* ----------------------------------------------------------
-     IMAGES
-     This is the only place you ever need to edit to add,
-     remove, or reorder photos. JS builds the slides from it.
+    images arrayt
   ---------------------------------------------------------- */
    const IMAGES = [
      { src: 'images/photo-1.jpg', alt: '' },
@@ -35,11 +30,9 @@
      { src: 'images/photo-23.jpg', alt: '' },
      { src: 'images/photo-24.jpg', alt: '' },
      { src: 'images/photo-25.jpg', alt: '' },
-     { src: 'images/photo-26.jpg', alt: '' },
-     { src: 'images/photo-27.jpg', alt: '' },
    ];
 
-  /* Build slides + dots into the DOM */
+  
   const slidesEl = document.getElementById('slides');
 
   IMAGES.forEach(function (img, i) {
@@ -56,9 +49,6 @@
 
   });
 
-  /* ----------------------------------------------------------
-     SLIDESHOW
-  ---------------------------------------------------------- */
   const slides   = document.querySelectorAll('.slide');
   const zonePrev = document.getElementById('zone-prev');
   const zoneNext = document.getElementById('zone-next');
@@ -96,7 +86,7 @@
   }, { passive: true });
 
   /* ----------------------------------------------------------
-     MOBILE NAV
+    mobile - wip
   ---------------------------------------------------------- */
   const burger     = document.getElementById('burger');
   const mobileMenu = document.getElementById('mobile-menu');
